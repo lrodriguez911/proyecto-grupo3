@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Rodriguez Lucas Maximiliano, Isa Jara Ramiro Fernando, Lopez Duchen Nicolas Angel, Silvetti Tomas, Benitez Camozzi Juan Manuel, Ocampo Edgardo">
+    <title>Acerca de nosotros</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a2d1e44e25.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand titulo-cursiva" href="index.html"><img src="img/logo-sin-fondo380px.png" alt="logo anteojos tres d" width="150"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbarblog" aria-controls="Navbarblog" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="Navbarblog">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ms-3">
+                    <a class="nav-link"  href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                    <a class="nav-link"  href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item ms-3">
+                      <a class="nav-link active" aria-current="page" href="acerca-de-nosotros.html">Acerca de nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="btn btn-info ms-4" type="button" data-bs-toggle="modal" data-bs-target="#botonsuscribirse">Suscribirse</button>
+                    </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+
+    </main>
+    <!-- modal boton suscripcion -->
+    <div class="modal fade" id="botonsuscribirse" tabindex="-1" aria-labelledby="botonsuscribirselabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="botonsuscribirselabel">Suscribete</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="emailinput" class="form-label">Direccion E-mail</label>
+                      <input type="email" class="form-control" id="emailinput" aria-describedby="emailayuda">
+                      <div id="emailayuda" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="contraseñainput" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="contraseñainput">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <section class="row bg-dark text-light container-fluid py-3">
+          <div class="col-sm-12 col-md-4">
+            <img src="img/logo-sin-fondo380px.png" alt="logo anteojos tres d" width="100">
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h5>info optativa</h5>
+            <p>informacion sobre el tema</p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h5>Seginos en nuestras redes:</h5>
+            <a target="_blank" href="#"><i class="fab fa-facebook-square fa-2x text-light me-1"></i></a>
+              <a href="#"><i class="fab fa-twitter-square fa-2x text-light me-1"></i></a>
+              <a href="#"><i class="fab fa-instagram fa-2x text-light me-1"></i></a>
+          </div>
+        </section>
+      </footer>
+      <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

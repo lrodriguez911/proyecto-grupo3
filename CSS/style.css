@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.titulo-cursiva{
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-titulo-blog{
+    font-size: 30px;
+}
